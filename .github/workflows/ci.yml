@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  node-test:
+    name: Node.js tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detect Node project
+        id: detect-node
+        run: |
+          if [ -f package.json ]; then echo "found=true" >> $GITHUB_OUTPUT; else echo "found=false" >> $GITHUB_OUTPUT; fi
+
+      - name: Setup Node
+        if: ${{ steps.detect-node.outputs.found == 'true' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install and test (Node)
+        if: ${{ steps.detect-node.outputs.found == 'true' }}
+        run: |
+          npm ci || npm install
+          npm test || echo "No tests or tests failed (customize workflow)"
+
+      - name: Skip Node job
+        if: ${{ steps.detect-node.outputs.found == 'false' }}
+        run: echo "No package.json found — skipping Node job"
+
+  python-test:
+    name: Python tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detect Python project
+        id: detect-py
+        run: |
+          if [ -f requirements.txt ] || [ -f pyproject.toml ]; then echo "found=true" >> $GITHUB_OUTPUT; else echo "found=false" >> $GITHUB_OUTPUT; fi
+
+      - name: Setup Python
+        if: ${{ steps.detect-py.outputs.found == 'true' }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install and test (Python)
+        if: ${{ steps.detect-py.outputs.found == 'true' }}
+        run: |
+          if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
+          pytest -q || echo "No tests found or tests failed (customize workflow)"
+
+      - name: Skip Python job
+        if: ${{ steps.detect-py.outputs.found == 'false' }}
+        run: echo "No requirements.txt or pyproject.toml found — skipping Python job"

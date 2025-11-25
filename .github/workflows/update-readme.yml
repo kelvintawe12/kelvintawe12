@@ -1,0 +1,26 @@
+name: Update README timestamp
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # daily at 00:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update LAST_UPDATED marker in README
+        run: |
+          NOW=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          perl -0777 -pe "s/<!--LAST_UPDATED-->.*?<!--END_LAST_UPDATED-->/<!--LAST_UPDATED-->$NOW<!--END_LAST_UPDATED-->/s" -i README.md || true
+
+      - name: Commit README update
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore(readme): update last-updated timestamp"
+          add: "README.md"
+          author_name: "github-actions"
+          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
