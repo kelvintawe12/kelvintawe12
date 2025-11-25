@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="60" viewBox="0 0 300 60">
+  <style>
+    .text { font: 600 18px/1.2 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif; fill:#0f172a }
+    .dot { fill:#0b63ff }
+  </style>
+  <text x="10" y="28" class="text">Building beautiful apps</text>
+  <g transform="translate(210,18)">
+    <circle class="dot" cx="0" cy="10" r="4">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="0s"/>
+    </circle>
+    <circle class="dot" cx="16" cy="10" r="4">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="0.15s"/>
+    </circle>
+    <circle class="dot" cx="32" cy="10" r="4">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+  </g>
+</svg>

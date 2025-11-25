@@ -1,9 +1,125 @@
-
 <!--
-This is your GitHub profile README. It is rendered on your profile page
-because this repository name matches your username (`kelvintawe12`).
-Update the text below to reflect your real bio, projects, and links.
+	Professional GitHub profile README for `kelvintawe12`.
+	Update the social handles and project links below to match your profile.
 -->
+
+<p align="center">
+	<img src="assets/hero.svg" alt="hero" width="640" />
+</p>
+
+# Hi — I'm Kelvintawe 👋
+
+> Developer • Open-source enthusiast • Cloud & automation learner
+
+<p>
+	<img src="https://img.shields.io/badge/Status-Open%20to%20work-1DB954.svg" alt="status" />
+	<img src="https://img.shields.io/badge/Top%20languages-JS%2C%20Python-orange" alt="languages" />
+	<img src="https://img.shields.io/badge/Location-YourCity-blue" alt="location" />
+	<img src="https://img.shields.io/badge/Contact-email-red" alt="contact" />
+</p>
+
+<p>
+	<img src="https://github-readme-stats.vercel.app/api?username=kelvintawe12&show_icons=true&theme=radical" alt="GitHub stats" />
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kelvintawe12&layout=compact&theme=radical" alt="Top languages" />
+</p>
+
+---
+
+## About me
+
+I build reliable, maintainable applications with a focus on developer experience and automation. I enjoy building full-stack features, writing tools to speed up common tasks, and learning about cloud-native systems.
+
+**Areas I work in:** Backend APIs, CLI tools, automation (CI/CD), serverless functions, and developer tooling.
+
+<!--LAST_UPDATED--><!--END_LAST_UPDATED-->
+
+---
+
+## Tech stack & tools
+
+- **Languages:** JavaScript / TypeScript, Python
+- **Frameworks:** Node.js, Express, React (basic)
+- **DevOps & infra:** GitHub Actions, Docker, Git
+- **Datastores:** SQLite / PostgreSQL
+
+<p>
+	<img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="js"/>
+	<img src="https://img.shields.io/badge/-TypeScript-2F74C0?logo=typescript&logoColor=white" alt="ts"/>
+	<img src="https://img.shields.io/badge/-Python-3670A0?logo=python&logoColor=white" alt="py"/>
+	<img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white" alt="docker"/>
+	<img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?logo=github" alt="gha"/>
+</p>
+
+---
+
+## Featured projects
+
+<!--PINNED_REPOS-->
+<!--END_PINNED_REPOS-->
+
+Below are a few highlighted repos — click to explore, star, or contribute.
+
+<table>
+	<tr>
+		<td align="center" width="33%">
+			<a href="https://github.com/kelvintawe12/project-1">
+				<img src="assets/project1.svg" alt="Project 1" width="300"/>
+			</a>
+			<p><strong>Project One</strong><br/>Task manager & CLI sync • <a href="https://github.com/kelvintawe12/project-1">Repo</a></p>
+		</td>
+		<td align="center" width="33%">
+			<a href="https://github.com/kelvintawe12/project-2">
+				<img src="assets/project2.svg" alt="Project 2" width="300"/>
+			</a>
+			<p><strong>Project Two</strong><br/>API toolkit & testing helpers • <a href="https://github.com/kelvintawe12/project-2">Repo</a></p>
+		</td>
+		<td align="center" width="33%">
+			<a href="https://github.com/kelvintawe12/project-3">
+				<img src="assets/demo-anim.svg" alt="Animated demo" width="300"/>
+			</a>
+			<p><strong>Project Three</strong><br/>Live demo / workflow • <a href="https://github.com/kelvintawe12/project-3">Repo</a></p>
+		</td>
+	</tr>
+</table>
+
+---
+
+## What I'm learning
+
+- Cloud-native patterns (serverless, observability)
+- Production-grade CI/CD and testing strategies
+- Systems design and scalable architectures
+
+---
+
+## Get in touch
+
+- Email: your.email@example.com
+- LinkedIn: https://www.linkedin.com/in/your-linkedin
+- Twitter: https://twitter.com/your_twitter
+
+<p align="center">
+	<img src="assets/typing.svg" alt="typing" />
+</p>
+
+---
+
+If you'd like, I can:
+
+- Add personalized project screenshots and GIFs
+- Improve the visual layout and CSS (GitHub Pages)
+- Auto-populate featured projects (I already added a generator workflow)
+
+Thanks for visiting — if you want me to customize text, add exact social links, or add screenshots/GIFs, send them and I'll update the README.
+# Hi, I'm Kelvintawe 👋
+
+Developer • Learner • Open-source enthusiast
+
+I'm a software developer building things with JavaScript, Python, and cloud tech. I enjoy solving problems, learning new tools, and sharing knowledge through code.
+
+**Featured Projects**
+<!--PINNED_REPOS-->
+<!--END_PINNED_REPOS-->
 
 # Hi, I'm Kelvintawe 👋
 
@@ -13,120 +129,7 @@ I'm a software developer building things with JavaScript, Python, and cloud tech
 
 <!--BADGES-->
 [![GitHub followers](https://img.shields.io/github/followers/kelvintawe12?label=Follow&style=social)](https://github.com/kelvintawe12)
-[![Twitter](https://img.shields.io/badge/-@your_twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/your_twitter)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:merukelvim.com)
 <!--END_BADGES-->
 
 <!--LAST_UPDATED--><!--END_LAST_UPDATED-->
----
-
-**Skills & Tools**
-
-- JavaScript / TypeScript  - Backend & Frontend
-- Python – scripting & automation
-- Git, GitHub, CI/CD
-- Docker, Linux, cloud platforms
-
-**Quick Links**
-
-- 🔭 Currently: building personal projects and learning cloud-native patterns
-- 🌱 Learning: DevOps, serverless, and system design
-- 📫 Reach me: add your contact method here (email, LinkedIn)
-
-**Contact & social**
-
-- **Twitter:** replace `your_twitter` in the badge above with your handle
-- **LinkedIn:** replace the `your-linkedin` path with your LinkedIn slug
-- **Email:** update the `mailto:` address above
-
----
-
-**GitHub Stats**
-
-![Kelvintawe GitHub stats](https://github-readme-stats.vercel.app/api?username=kelvintawe12&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kelvintawe12&layout=compact&theme=radical)
-
----
-
-**Featured Projects**
-
-- Add & showcase 3-6 of your best repositories here with short descriptions and links.
-
----
-
-**Automations in this repo**
-
-- A GitHub Actions workflow updates the `Last updated` timestamp in this README daily (and on demand). See `.github/workflows/update-readme.yml`.
-
----
-
-If you'd like, I can:
-
-- add badges for skills and social links
-- create GitHub Actions templates for CI and PR checks
-- scaffold a simple GitHub Pages portfolio from this repo
-- generate a list of recommended repos to pin and a prettier visual layout
-
-Tell me which of the above you'd like me to do next and I'll implement it.
-
-# Hi, I'm Tawe Kelvin (@kelvintawe12) 👋
-
-**Software Engineer** | **AI Enthusiast** | **Conservation Technologist**
-
----
-
-## 🛠️ Technical Interests
-
-- **Software Engineering**: Building scalable applications with Python & JavaScript ecosystems.
-- **AI/ML Innovation**: Developing career development tools and conservation solutions through machine learning.
-- **Conservation Tech**: Creating technological interventions for wildlife protection and biodiversity preservation.
-- **Interactive Learning**: Designing educational games and immersive experiences.
-
-## 🚀 Current Development Focus
-
-- **Core Languages**:  
-  <span style="color: #4B8BBE">Python</span> (TDD, Clean Architecture) | <span style="color: #F0DB4F">JavaScript</span> | Bash Scripting
-- **Web Development**:  
-  Modern web stack with focus on **React**, API design, and responsive interfaces
-- **AI Specialization**:  
-  Active participant in **ALX AiCE** program (AI Career Essentials)
-
-## 🌱 Continuous Learning
-
-```text
-Current Skill Tree:
-▰▰▰▰▰ Python Fundamentals     90%
-▰▰▰▰▰ JavaScript/ES6+        85%  
-▰▰▰▰▰ React Framework        60% [Active]
-▰▰▰▰▰ AI/ML Concepts         75%
-
-
-
-🤝 Collaboration Opportunities
-I'm particularly interested in partnerships involving:
-
-Open-source education technology platforms
-
-AI-driven career development tools
-
-Conservation tech projects with measurable impact
-
-Interactive learning applications
-
-📬 Let's Connect
-Email
-LinkedIn
-Twitter
-
-✨ Beyond Code
-🦏 Wildlife Conservation Advocate (Inspired by RHINO MAN documentary)
-
-🌍 Passionate about sustainable tech solutions
-
-🎮 Educational game design enthusiast
-
-"Innovate to Protect, Educate to Inspire."
-Blending technology with purpose to drive meaningful change.
-

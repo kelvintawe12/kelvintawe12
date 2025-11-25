@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+  <style>
+    .bg { fill:#0f172a }
+    .card { fill:#ffffff; stroke:#e6eef8 }
+    .title { font: 700 20px/1 'Segoe UI', Roboto, system-ui; fill:#0b1220 }
+    .dot { fill:#0b63ff }
+    .bar { fill:#06b6d4 }
+  </style>
+  <rect width="100%" height="100%" rx="12" fill="#f8fafc"/>
+  <g transform="translate(24,20)">
+    <rect class="card" x="0" y="0" width="672" height="260" rx="8"/>
+    <text class="title" x="20" y="34">Demo: Live Flow — Animated Preview</text>
+    <g transform="translate(20,60)">
+      <rect x="0" y="0" width="620" height="140" rx="8" fill="#ffffff" stroke="#e6eef8"/>
+      <!-- Animated bars -->
+      <g id="bars" transform="translate(20,14)">
+        <rect x="0" y="0" width="120" height="16" rx="8" class="bar">
+          <animate attributeName="width" values="40;120;80;120" dur="3s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="0" y="28" width="80" height="14" rx="7" class="bar" opacity="0.9">
+          <animate attributeName="width" values="60;80;40;80" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="0" y="52" width="40" height="12" rx="6" class="bar" opacity="0.8">
+          <animate attributeName="width" values="20;40;120;40" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <!-- moving dot to illustrate activity -->
+      <circle cx="560" cy="100" r="8" class="dot">
+        <animateMotion dur="4s" repeatCount="indefinite" path="M0 0 L-520 0"/>
+      </circle>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320">
+  <style>
+    .card { fill: #ffffff; stroke:#e6eef8; stroke-width:1 }
+    .title { font: 700 18px/1 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif; fill:#0b1220 }
+    .meta { font: 400 12px/1 'Segoe UI', Roboto, sans-serif; fill:#475569 }
+    .term { fill:#0f172a; opacity:0.06 }
+    .accent { fill:#06b6d4 }
+  </style>
+  <rect width="100%" height="100%" rx="12" fill="#ffffff"/>
+  <g transform="translate(16,16)">
+    <rect class="card" x="0" y="0" width="488" height="288" rx="8"/>
+    <text class="title" x="20" y="36">Project Two — API Toolkit</text>
+    <text class="meta" x="20" y="60">Lightweight toolkit for building and testing APIs.</text>
+    <rect x="20" y="80" width="444" height="180" rx="6" fill="#0b1220" opacity="0.03"/>
+    <g transform="translate(28,86)">
+      <rect class="term" x="0" y="0" width="400" height="12" rx="3"/>
+      <rect class="term" x="0" y="22" width="380" height="12" rx="3"/>
+      <rect class="term" x="0" y="44" width="200" height="12" rx="3"/>
+      <rect x="0" y="72" width="90" height="20" rx="6" fill="#06b6d4"/>
+    </g>
+  </g>
+</svg>

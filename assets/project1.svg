@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320">
+  <style>
+    .bg { fill: #0f172a }
+    .card { fill: #ffffff; stroke:#e6eef8; stroke-width:1 }
+    .title { font: 700 18px/1 'Segoe UI', Roboto, system-ui, -apple-system, sans-serif; fill:#0b1220 }
+    .meta { font: 400 12px/1 'Segoe UI', Roboto, sans-serif; fill:#475569 }
+    .btn { fill:#0b63ff; rx:6 }
+    .code { fill:#0f172a; opacity:0.06 }
+  </style>
+  <rect width="100%" height="100%" rx="12" fill="#f8fafc"/>
+  <g transform="translate(20,18)">
+    <rect class="card" x="0" y="0" width="480" height="284" rx="8"/>
+    <text class="title" x="20" y="36">Project One — Task Manager</text>
+    <text class="meta" x="20" y="60">A small, focused todo app with sync and CLI integration.</text>
+    <rect x="20" y="80" width="200" height="140" rx="6" fill="#ffffff" stroke="#e6eef8"/>
+    <g transform="translate(24,86)">
+      <rect class="code" x="0" y="0" width="160" height="14" rx="4"/>
+      <rect class="code" x="0" y="22" width="140" height="12" rx="4"/>
+      <rect class="code" x="0" y="42" width="120" height="12" rx="4"/>
+      <rect class="btn" x="0" y="72" width="72" height="24" rx="6"/>
+    </g>
+    <g transform="translate(240,80)">
+      <rect x="0" y="0" width="216" height="140" rx="6" fill="#f1f5f9"/>
+      <text class="meta" x="10" y="20">Recent activity</text>
+      <circle cx="14" cy="44" r="6" fill="#0b63ff"/>
+      <rect class="code" x="30" y="36" width="150" height="12" rx="4"/>
+      <rect class="code" x="30" y="56" width="120" height="12" rx="4"/>
+    </g>
+  </g>
+</svg>
